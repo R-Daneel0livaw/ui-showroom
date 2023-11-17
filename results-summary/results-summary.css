@@ -27,10 +27,26 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
 	display: grid;
 	place-items: center;
-	height: 100dvh;
+	min-height: 100svh;
 }
 
 main.container {
 	display: flex;
 	flex-direction: column;
+	padding: 20px;
 }
+
+ul.summary-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.summary-list li {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul.summary-list li img {
+	display: inline-block;
+}
+
