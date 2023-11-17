@@ -36,6 +36,16 @@ main.container {
 	padding: 20px;
 }
 
+main.container section {
+	display: flex;
+	flex-direction: column;
+}
+
+main.container section:first-of-type {
+	align-items: center;
+	padding: 24px;
+}
+
 ul.summary-list {
 	list-style-type: none;
 	padding: 0;
@@ -44,9 +54,10 @@ ul.summary-list {
 ul.summary-list li {
 	display: flex;
 	justify-content: space-between;
+	padding: 8px;
 }
 
-ul.summary-list li img {
+ul.summary-list > li img {
 	display: inline-block;
 }
 
