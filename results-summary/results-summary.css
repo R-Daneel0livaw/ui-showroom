@@ -49,6 +49,7 @@ main.container section:first-of-type {
 ul.summary-list {
 	list-style-type: none;
 	padding: 0;
+	margin-block: 16px;
 }
 
 ul.summary-list li {
