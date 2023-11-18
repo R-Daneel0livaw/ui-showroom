@@ -46,6 +46,10 @@ main.container section:first-of-type {
 	padding: 24px;
 }
 
+.result-description {
+	text-align: center;
+}
+
 ul.summary-list {
 	list-style-type: none;
 	padding: 0;
