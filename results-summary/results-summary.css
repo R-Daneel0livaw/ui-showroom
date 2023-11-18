@@ -61,3 +61,7 @@ ul.summary-list > li img {
 	display: inline-block;
 }
 
+button {
+	border-radius: 50vh;
+	padding: 12px;
+}
